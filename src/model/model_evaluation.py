@@ -6,6 +6,7 @@ import yaml
 import mlflow
 import dagshub
 import mlflow.sklearn
+import seaborn as sns
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.feature_extraction.text import TfidfVectorizer
 import os
